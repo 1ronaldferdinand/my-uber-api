@@ -55,8 +55,8 @@ class OrdersController extends Controller
                     continue;
                 }
 
-                // Check total time needed is under the deadline or not
-                if ($totalTimeNeeded <= $this->calculateHoursUntilDeadline($deadline)) {
+                // Check time to deliver is under the deadline or not
+                if ($timeToDeliver <= $this->calculateHoursUntilDeadline($deadline)) {
                     $canDeliverBeforeDeadline = true;
                     $availablePigeons[] = $pigeon;
                 }
