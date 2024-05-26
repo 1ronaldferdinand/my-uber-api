@@ -19,29 +19,29 @@
 #### 1. Install project with composer
 
 ```bash
-  run composer install
-  php artisan key:generate
+run composer install
 ```
 
 #### 2. Create & setting project's environment
 
+- Copy .env.example to .env
+- Set your database in .env
+- Then create APP Key 
+
 ```bash
-  copy .env.example to .env
-  set your database in .env
+php artisan key:generate
 ```
 
 #### 3. Run Table's Migrations
 
 ```bash
-  php artisan migrate:refresh --seed
+php artisan migrate:refresh --seed
 ```
 ## Run Locally
 
 ```bash
-  php artisan serve
+php artisan serve
 ```
-
-
 
 ## Usage/Examples
 
