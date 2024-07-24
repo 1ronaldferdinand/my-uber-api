@@ -1,4 +1,4 @@
-# UberPigeon™
+# My Uber™
 
 ## Documentation
 
